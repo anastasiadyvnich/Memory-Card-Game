@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    <audio id="backgroundMusic" loop>
+      <source src="music/background_sound.mp3" type="audio/mpeg" />
+    </audio>
     <div class="wrapper">
       <ul class="cards">
         <li class="card">
@@ -104,6 +107,34 @@
             <img src="images/skin1/back4.png" alt="" />
           </div>
         </li>
+        <div class="details">
+          <p class="time">
+            Time: <span><b>30</b>s</span>
+          </p>
+          <div class="music-control">
+            <button id="musicToggleBtn">
+              <img
+                src="images/icons/music_on.png"
+                alt="Music On"
+                id="musicOnIcon"
+              />
+              <img
+                src="images/icons/music_off.png"
+                alt="Music Off"
+                id="musicOffIcon"
+              />
+            </button>
+          </div>
+          <div class="drop">
+            <button id="changeSkinBtn">Change Skin</button>
+            <div id="skinDropdown" class="dropdown-content">
+              <a href="#" data-skin="1">Frogs 🐸</a>
+              <a href="#" data-skin="2">Programming 💻</a>
+              <a href="#" data-skin="3">Emoji 🤪</a>
+            </div>
+          </div>
+          <button id="refreshBtn">Refresh</button>
+        </div>
       </ul>
     </div>
   </body>
