@@ -6,6 +6,10 @@
 
 A lightweight, interactive browser-based memory game designed to test your cognitive skills. Match all card pairs before the timer runs out! The project features multiple themes, sound effects, and a responsive design.
 
+## 🔗 Deployment link (GitHub Actions)
+
+[Memory Card Game](https://anastasiadyvnich.github.io/Memory-Card-Game/)
+
 ## ✨ Key Features
 
 * **Dynamic Theming:** Switch between 3 unique skins in real-time:
